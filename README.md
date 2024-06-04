@@ -6,6 +6,7 @@
 5. [Crear un nuevo warehouse mediante interfaz o usando SQL](#schema5)
 6. [ ¿Cómo explorar las bases de datos y tablas en Snowflake?](#schema6)
 7. [Monitorizar el uso](#schema7)
+8. [REF](#schemaref)
 
 
 <hr>
@@ -85,7 +86,9 @@ DROP WAREHOUSE EJEMPLO_WAREHOUSE
 ![](./img/intro_10.png)
 
 
+<hr>
 
+<a name="schemaref"></a>
 
 REF:
 https://www.udemy.com/course/master-snowflake-data-warehouse-en-la-nube-2023/
