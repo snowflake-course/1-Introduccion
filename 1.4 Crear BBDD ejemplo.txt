@@ -1,0 +1,5 @@
+-- Crear una base de datos de muestra si no está ya creada en Snowflake por defecto
+create database snowflake_sample_data from share sfc_samples.sample_data;
+
+-- Dar acceso público a la base de datos para que todo tipo de usuarios y roles puedan acceder a ella
+grant imported privileges on database snowflake_sample_data to role public;
